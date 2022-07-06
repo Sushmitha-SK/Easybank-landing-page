@@ -1,0 +1,29 @@
+.articlesCard {
+  background: hsl(0, 0%, 100%);
+}
+
+.articlesCardSection {
+  padding-bottom: 8rem;
+}
+
+.authorName {
+  color: hsl(233, 8%, 62%);
+}
+
+@media (min-width: 960px) {
+  .articlesCardSection {
+    padding-bottom: 8rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .articlesCardSection {
+    padding-bottom: 8rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .articlesCardSection {
+    padding-bottom: 8rem;
+  }
+}

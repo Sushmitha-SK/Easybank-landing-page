@@ -1,0 +1,19 @@
+.btnRequest {
+  border-radius: 30px;
+  background: linear-gradient(to left, hsl(192, 70%, 51%), hsl(136, 65%, 51%));
+  cursor: pointer;
+  color: #fff;
+  padding: 1em 1.5em;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-weight: 400;
+  margin-right: 15px;
+  border: none;
+
+}
+
+.btnRequest:hover,
+.btnRequest:focus {
+  opacity: 0.7;
+  color: #fff;
+}

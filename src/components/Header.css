@@ -1,0 +1,133 @@
+#root {
+  overflow: hidden;
+}
+
+.headerContainer {
+  padding-bottom: 3rem;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.left {
+  position: relative;
+  background: url("../assets/bg-intro-mobile.svg") no-repeat center center;
+  background-size: cover;
+  min-height: 320px;
+}
+
+.left::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url("../assets/image-mockups.png") no-repeat center 90%;
+  background-size: cover;
+}
+
+.right {
+  text-align: center;
+  flex: 2;
+  order: 1;
+  padding: 2rem 1rem 1.5rem;
+}
+
+.title {
+  text-align: left;
+}
+
+.sub-title {
+  padding: 1rem;
+  margin-bottom: 2.5rem;
+  text-align: left;
+  color: hsl(233, 8%, 62%);
+}
+
+.btnRequest {
+  border-radius: 30px;
+  background: linear-gradient(to left, hsl(192, 70%, 51%), hsl(136, 65%, 51%));
+  cursor: pointer;
+  color: #fff;
+  padding: 1em 1.5em;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-weight: 300;
+  margin-right: 15px;
+  border: none;
+}
+
+.btnRequest:hover,
+.btnRequest:focus {
+  opacity: 0.7;
+  color: #fff;
+}
+
+
+@media (min-width: 600px) {
+  .headerContainer {
+    align-items: center;
+  }
+
+  .left::after {
+    background-size: 50%;
+  }
+
+  .btnRequest {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .headerContainer {
+    padding-bottom: 3rem;
+  }
+
+  .headerContainer {
+    display: flex;
+    align-items: center;
+    padding-bottom: initial;
+  }
+
+  .left {
+    background-image: none;
+    flex: 3;
+    order: 2;
+    height: 500px;
+
+  }
+
+  .left::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 150%;
+    background: url("../assets/bg-intro-desktop.svg") no-repeat center 60%;
+    background-size: 100%;
+  }
+
+  .left::after {
+    width: 120%;
+    background-position: center 90%;
+    left: 10%;
+    height: 126%;
+    background-size: 75%;
+  }
+
+  .right {
+    text-align: initial;
+    padding-top: initial;
+    padding-left: 6rem;
+  }
+
+  .title {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+  }
+
+  .sub-title {
+    padding: initial;
+  }
+
+  .btnRequest {
+    text-align: center;
+  }
+}

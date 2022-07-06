@@ -1,0 +1,31 @@
+.bankingContainer {
+    background: hsl(220, 16%, 96%);
+    margin: 0 auto;
+    padding: 1.5em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headerContent {
+    color: hsl(233, 8%, 62%);
+}
+
+
+@media (min-width: 960px) {
+    .bankingContainer {
+        text-align: left;
+    }
+
+    .col-md {
+        text-align: center;
+        align-items: center;
+    }
+
+    .row my-5 {
+        text-align: center;
+        align-items: center;
+    }
+
+}

@@ -1,0 +1,60 @@
+.cardHeader {
+  font-size: 16px;
+  color: hsl(233, 26%, 24%);
+  text-align: left;
+  font-weight: 600;
+}
+
+.cardHeader a {
+  text-decoration: none;
+  color: hsl(233, 26%, 24%);
+}
+
+.cardHeader a:hover,
+a:active {
+  color: hsl(192, 70%, 51%);
+}
+
+
+.cardText {
+  font-size: 16px;
+  color: hsl(233, 8%, 62%);
+  text-align: left;
+}
+
+.card {
+  border: none;
+  background: hsl(220, 16%, 96%);
+}
+
+.card-body h6 {
+  font-size: 12px;
+  color: hsl(233, 8%, 62%);
+}
+
+
+@media (min-width: 960px) {
+  .card {
+    text-align: center;
+    align-items: flex-start;
+  }
+
+
+}
+
+
+
+
+@media (min-width: 600px) {
+  .card img {
+    text-align: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card img {
+    text-align: center;
+    align-items: center;
+  }
+}

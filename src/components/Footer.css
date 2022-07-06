@@ -1,0 +1,55 @@
+.footer {
+  background-color: hsl(233, 26%, 24%);
+  padding: 2em 0;
+}
+
+.footerLogo {
+  width: 170px;
+}
+
+.footerContainer {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  gap: 2em;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footerIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.socialmediaIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.socialmediaIcons a:hover,
+a:focus {
+  cursor: hand;
+  color: hsl(136, 65%, 51%);
+}
+
+.footerLink {
+  color: white;
+  text-align: left;
+  text-decoration: none;
+}
+
+.footerLink a:hover {
+  color: hsl(136, 65%, 51%);
+}
+
+.copyRight {
+  color: hsl(233, 8%, 62%);
+  font-size: 14px;
+}
+
